@@ -1,0 +1,1 @@
+select distinct a.firstname, a.lastname ,b.departmentname from worker a, assign, dept b  where projno = '1019' AND a.departmentid = b.departmentid ;
