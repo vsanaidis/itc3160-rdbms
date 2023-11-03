@@ -1,0 +1,1 @@
+select firstname, lastname, salary, departmentid from worker where salary >(select avg(salary)from worker) AND departmentid = 3;
