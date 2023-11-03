@@ -1,0 +1,1 @@
+select count(*)from workerview where empid = 103;
