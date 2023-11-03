@@ -1,0 +1,1 @@
+select projno, projname, budget/3 from project;
