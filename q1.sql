@@ -1,0 +1,1 @@
+select a.firstname, a.lastname from worker a, dept  b where b.departmentname = 'Development' AND salary > 30000;
